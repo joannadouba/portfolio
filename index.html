@@ -82,7 +82,7 @@
                             <a href="#work-exp" class="btn btn-primary px-5 py-2 mb-3 text-uppercase align-self-md-start">Work Experience</a>
                         </section>
                         <hr  class="d-md-none">
-                        <section class="skills col-md mb-3 mt-3 container">
+                        <section class="skills col-md mb-3 mt-3 mt-md-0 container">
                             <!-- Web Skills & Lang -->
                             <h3 class="text-body-tertiary">Web Skills & Languages</h3>
                             <ul class="d-flex m-0 list-unstyled flex-wrap mb-3">
@@ -347,9 +347,32 @@
                   </div>
             </section>
         </article>
-        <aside>
-            <h2 class="contact" id="contact">Contact Me</h2>
-            
+        <aside class="contact container-md d-flex flex-column align-items-center text-light" id="contact">
+            <h2 class="display-1 text-primary text-center">Contact</h2>
+            <hr class="w-25">
+            <div class="container">
+                <div class="row">
+                    <form class="col-md">
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="rounded-0 form-control" id="name" placeholder="Truman Burbank">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="rounded-0 form-control" id="email" aria-describedby="emailHelp" placeholder="truman@burbank.ca">
+                          <div id="emailHelp" class="form-text text-light"><em>We'll never share your email with anyone else.</em></div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="projDetails" class="form-label">Project Details</label>
+                          <textarea rows="7" class="rounded-0 form-control" id="projDetails" placeholder="I would like to contract you for a web project."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                <section class="social col-md">
+
+                </section>
+                </div>
+            </div>
         </aside>
             <!-- contact -->
     </main>
