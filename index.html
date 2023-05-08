@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js
     "></script>
+    <script src="https://kit.fontawesome.com/edfb327ecf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
     <title>Joanna Douba's Portfolio</title>
 </head>
@@ -24,10 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#about">About</a>
+                  <a class="nav-link" aria-current="page" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#work-exp">Work Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#recom">Recommendations</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#projects">Projects</a>
@@ -128,66 +132,147 @@
                 <hr class="w-25">
                 <div class="row gap-3">
                     <div class="col-md mb-3">
+                        <h3 class="text-primary">Overview</h3>
                         <p>As an experienced web developer and digital media production specialist with <strong class="text-primary">over 14 years of experience</strong>, I excel at <strong class="text-primary">conceptualizing, creating and managing large-scale projects from start to finish.</strong></p>
-                        <p>I have <strong class="text-primary">7 years of experience in designing and developing full-stack websites</strong> as well as developing custom WordPress themes, customizing existing themes, and integrating and creating plugins using WordPress, Laravel, and other technologies.</p>
+                        <p>I have <strong class="text-primary">6 years of experience in designing and developing full-stack websites</strong> as well as developing custom WordPress themes, customizing existing themes, and integrating and creating plugins using WordPress, Laravel, and other technologies.</p>
                         <p>I am also a <strong class="text-primary">Professor</strong> teaching web design and development, client projects, and intro to JavaScript for <strong class="text-primary">3 years at Algonquin College</strong></p>
                         <p>Throughout my career, I have employed thinking & creative problem-solving to break down complex mega-projects into achievable tasks. <strong class="text-primary">This enabled me to successfully lead & deliver projects worth over $12 million for Fortune 500 clients.</strong></p>
-                        <a href="doc/douba-joanna-cv-0323.pdf" class="btn btn-primary">Download CV</a>
-                        <a href="https://linkedin.com/in/joannadouba" class="btn btn-primary">LinkedIn</a>
+                        <a href="doc/douba-joanna-cv-0323.pdf" class="btn btn-primary" target="_blank"><i class="fa-solid fa-file-arrow-down fa-2x"></i> Download CV</a>
+                        <a href="https://linkedin.com/in/joannadouba" class="btn btn-primary"><i class="fa-brands fa-linkedin fa-2x"></i></a>
                     </div>
-                    <div class="col-md">
+                    <!-- Work ex accordion -->
+                    <div class="col-md mb-3">
+                        <h3 class="text-primary">Recent Experience</h3>
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item rounded-0 border-0 border-bottom">
                               <h3 class="accordion-header rounded-0">
                                 <button class="accordion-button rounded-0 bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Professor at Algonquin College
+                                  <span class="fw-bold">Professor&ThinSpace;</span> at Algonquin College
                                 </button>
                               </h3>
                               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body rounded-0 bg-dark-subtle">
-                                  <em>January 2020 - Present</em>
-                                  <br>
-                                  <p>Ottawa, Ontario, Canada</p>
-                                  <ul>
-                                    <li>Teaching courses in Web Development, Web Design, and Client Projects, in the Interactive Media Management and the Interactive Media Design programs focused on developing hands-on skills to plan and develop websites, online media, and dynamic content through HTML, CSS, JavaScript, PHP, WordPress Theme Development. The courses also tackle color theory, component and page UI and layout design, the creative process, and responsive web design through a mobile-first methodology. Whereas in the Client Projects course, students conceptualize, design, and develop a multimedia project for their respective clients.</li>
-                                    <li>Developed a new project-based curriculum for the web design and development courses to integrate the learning objectives carried out through a series of mini-projects that compile into one complete real-world capstone project submitted at the end of the term.</li>
-                                  </ul>
+                                <div class="accordion-body rounded-0 bg-dark-subtle text-light">
+                                    <i class="fa-sharp fa-solid fa-calendar-days"></i> <em>January 2020 - Present</em>
+                                    <br>
+                                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Ottawa, Ontario, Canada</p>
+                                    <ul>
+                                        <li>Teaching courses in Web Development, Web Design, and Client Projects, in the Interactive Media Management and the Interactive Media Design programs focused on developing hands-on skills to plan and develop websites, online media, and dynamic content through HTML, CSS, JavaScript, PHP, WordPress Theme Development. The courses also tackle color theory, component and page UI and layout design, the creative process, and responsive web design through a mobile-first methodology. Whereas in the Client Projects course, students conceptualize, design, and develop a multimedia project for their respective clients.</li>
+                                        <li>Developed a new project-based curriculum for the web design and development courses to integrate the learning objectives carried out through a series of mini-projects that compile into one complete real-world capstone project submitted at the end of the term.</li>
+                                    </ul>
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item rounded-0 border-0 border-bottom">
                               <h3 class="accordion-header rounded-0 bg-secondary">
-                                <button class="accordion-button rounded-0 bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="accordion-button rounded-0 bg-dark text-light collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Freelance Web Designer and Developer
                                 </button>
                               </h3>
                               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body rounded-0">
-                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body rounded-0 bg-dark-subtle text-light">
+                                    <i class="fa-sharp fa-solid fa-calendar-days"></i> <em>May 2017 - Present</em>
+                                    <ul>
+                                      <li>Designed and setup websites for clients, which involved gathering client briefs, helping them select the WordPress theme best-suited to their needs to buy based on their individual tastes, or creating custom designs. </li>
+                                      <li>Setup each client on their own hosting solution, transferred domain names to client accounts. Installed WordPress, along with the chosen/developed themes and plugins to cover back up, security, and additional front-end features. Customized their look and feel using CSS and PHP. Prepared training documents to educate the clients on how to update their own websites using the WordPress back-end</li>
+                                    </ul>
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item rounded-0 border-0 border-bottom">
                               <h3 class="accordion-header rounded-0 bg-secondary">
                                 <button class="accordion-button rounded-0 bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  Accordion Item #3
+                                    <span class="fw-bold">Web Designer and Developer</span>&ThinSpace;at Terabit.ca
                                 </button>
                               </h3>
                               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body rounded-0">
-                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body rounded-0 bg-dark-subtle text-light">
+                                    <i class="fa-sharp fa-solid fa-calendar-days"></i> <em>December 2020 - June 2022</em>
+                                    <br>
+                                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Ottawa, Ontario, Canada</p>
+                                    <p>Worked remotely independently and with a small team and on project planning and designing websites and apps for various clients. Used creative design skills in designing wireframes and prototypes for websites and apps. Led creative teams to deliver project requirements. Gathered client briefs and developed mood boards. Designed prototypes and tested them using Adobe Xd. Developed websites using PHP, MySQL, CSS3, HTML5, JavaScript, jQuery, WordPress CMS, and Laravel Framework.</p>
                                 </div>
                               </div>
+                            </div>
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h3 class="accordion-header rounded-0 bg-secondary">
+                                  <button class="accordion-button rounded-0 bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      <span class="fw-bold">E-Learning Project Manager</span>&ThinSpace;at Terabit.ca
+                                  </button>
+                                </h3>
+                                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body rounded-0 bg-dark-subtle text-light">
+                                      <i class="fa-sharp fa-solid fa-calendar-days"></i> <em>September 2019 - December 2019</em>
+                                      <br>
+                                      <p><i class="fa-sharp fa-solid fa-location-dot"></i> Ottawa, Ontario, Canada</p>
+                                      <ul>
+                                        <li>Led creative teams, sourced, supervised and managed talent to produce eLearning storyboards, graphics, as well as the full 3-module course using Articulate Storyline over the spanof 8 weeks.</li>
+                                        <li>Directed talking-head videos using a local actor.</li>
+                                      </ul>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h3 class="accordion-header rounded-0 bg-secondary">
+                                  <button class="accordion-button rounded-0 bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                     <span class="fw-bold">Workshop Presenter</span>&ThinSpace;at TTRO
+                                  </button>
+                                </h3>
+                                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body rounded-0 bg-dark-subtle text-light">
+                                      <i class="fa-sharp fa-solid fa-calendar-days"></i> <em>September 2018</em>
+                                      <br>
+                                      <p><i class="fa-sharp fa-solid fa-location-dot"></i> Riyadh, Kingdom of Saudi Arabia</p>
+                                      <p>Delivered a 2-day workshop (8 hrs/day for 40 seats) on integrating eLearning tools to build interactive learning experiences for K-12 students to Saudi public school teachers in collaboration with T4edu (Tatweer Company for Educational Services).
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h3 class="accordion-header rounded-0 bg-secondary">
+                                  <button class="accordion-button rounded-0 bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                     <span class="fw-bold">Media Production Manager&ThinSpace;</span> at Alwasaet
+                                  </button>
+                                </h3>
+                                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body rounded-0 bg-dark-subtle text-light">
+                                    <i class="fa-sharp fa-solid fa-calendar-days"></i> <em>July 2015 - October 2016</em>
+                                    <br>
+                                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Riyadh, Kingdom of Saudi Arabia</p>
+                                    <p>Creatively directed as well as managed the development, production and delivery of 100 bi-lingual (English & Arabic) educational 2D animation episodes x 4 – 7 min each for Saudi Aramco’s King Abdulaziz Center for World Culture, as well as animations for several other clients. This project was worth $3 million.</p>
+                                    <p>A total number of 200 educational animations were developed under my tenure at Alwasaet.
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h3 class="accordion-header rounded-0 bg-secondary">
+                                  <button class="accordion-button rounded-0 bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                     <span class="fw-bold">Project Coordinator &ThinSpace;</span> at Alwasaet
+                                  </button>
+                                </h3>
+                                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body rounded-0 bg-dark-subtle text-light">
+                                    <i class="fa-sharp fa-solid fa-calendar-days"></i> <em>May 2014 - July 2015</em>
+                                    <br>
+                                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Riyadh, Kingdom of Saudi Arabia</p>
+                                    <ul>
+                                        <li>Managed the development, production and delivery of 100 bi-lingual (English & Arabic) educational 2D animation episodes x 3.5 – 7 min each for Saudi Aramco’s King AbdulAziz Center for World Culture, as well as animations for several other clients. This project was worth $3 million.</li>
+                                        
+                                        <li>Designed and implemented Alwasaet’s website using self-hosted WordPress (still currently in use).</li>
+                                    </ul>
+                                    </p>
+                                  </div>
+                                </div>
                             </div>
                           </div>
                     </div>
                 </div>
             </section>
-                <!-- Work ex accordion -->
-                <!-- projects -->
-        </article>
+            
+            
         <aside>
             <h2 class="contact" id="contact">Contact Me</h2>
+            
         </aside>
             <!-- contact -->
     </main>
